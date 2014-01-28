@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262BB66E18970F4500FE96C1 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262BB66D18970F4500FE96C1 /* MainMenuViewController.m */; };
 		267D29A7188EDE6900E33535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D29A6188EDE6900E33535 /* Foundation.framework */; };
 		267D29A9188EDE6900E33535 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D29A8188EDE6900E33535 /* CoreGraphics.framework */; };
 		267D29AB188EDE6900E33535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D29AA188EDE6900E33535 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262BB66C18970F4500FE96C1 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		262BB66D18970F4500FE96C1 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		267D29A3188EDE6900E33535 /* Assignment 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		267D29A6188EDE6900E33535 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		267D29A8188EDE6900E33535 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				267D29BF188EDE6900E33535 /* ViewController.m */,
 				267D29C1188EDE6900E33535 /* Images.xcassets */,
 				267D29AD188EDE6900E33535 /* Supporting Files */,
+				262BB66C18970F4500FE96C1 /* MainMenuViewController.h */,
+				262BB66D18970F4500FE96C1 /* MainMenuViewController.m */,
 			);
 			path = "Assignment 1";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262BB66E18970F4500FE96C1 /* MainMenuViewController.m in Sources */,
 				267D29C0188EDE6900E33535 /* ViewController.m in Sources */,
 				267D29B7188EDE6900E33535 /* AppDelegate.m in Sources */,
 				267D29B3188EDE6900E33535 /* main.m in Sources */,
@@ -474,6 +480,7 @@
 				267D29DA188EDE6900E33535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267D29DB188EDE6900E33535 /* Build configuration list for PBXNativeTarget "Assignment 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				267D29DD188EDE6900E33535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
