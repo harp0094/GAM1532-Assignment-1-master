@@ -1,18 +1,18 @@
 //
-//  MainMenuViewController.m
+//  ControlsViewController.m
 //  Assignment 1
 //
 //  Created by James Harper on 2014-02-01.
 //  Copyright (c) 2014 James Harper. All rights reserved.
 //
 
-#import "MainMenuViewController.h"
+#import "ControlsViewController.h"
 
-@interface MainMenuViewController ()
+@interface ControlsViewController ()
 
 @end
 
-@implementation MainMenuViewController
+@implementation ControlsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,24 +23,9 @@
     return self;
 }
 
--(IBAction)PlayGameButtonEvent:(id)sender
+-(IBAction)BackButtonEvent:(id)sender
 {
-    
-}
-
--(IBAction)OptionsButtonEvent:(id)sender
-{
-    
-}
-
--(IBAction)ControlsButtonEvent:(id)sender
-{
-    
-}
-
--(IBAction)CreditsButtonEvent:(id)sender
-{
-    
+    [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
 - (void)viewDidLoad

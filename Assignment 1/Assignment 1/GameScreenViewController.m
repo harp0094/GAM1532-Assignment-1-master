@@ -1,18 +1,18 @@
 //
-//  MainMenuViewController.m
+//  GameScreenViewController.m
 //  Assignment 1
 //
 //  Created by James Harper on 2014-02-01.
 //  Copyright (c) 2014 James Harper. All rights reserved.
 //
 
-#import "MainMenuViewController.h"
+#import "GameScreenViewController.h"
 
-@interface MainMenuViewController ()
+@interface GameScreenViewController ()
 
 @end
 
-@implementation MainMenuViewController
+@implementation GameScreenViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,26 +23,10 @@
     return self;
 }
 
--(IBAction)PlayGameButtonEvent:(id)sender
+-(IBAction)BackButtonEvent:(id)sender
 {
-    
+    [self dismissViewControllerAnimated:YES completion:^{}];
 }
-
--(IBAction)OptionsButtonEvent:(id)sender
-{
-    
-}
-
--(IBAction)ControlsButtonEvent:(id)sender
-{
-    
-}
-
--(IBAction)CreditsButtonEvent:(id)sender
-{
-    
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
