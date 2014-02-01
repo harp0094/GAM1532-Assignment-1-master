@@ -5,30 +5,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="3Dx-46-QW7">
-            <objects>
-                <viewController id="j1G-Yh-9iK" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cSz-6I-JaY"/>
-                        <viewControllerLayoutGuide type="bottom" id="VON-tG-Z0z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NAJ-Bj-XiF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fdZ-fY-vtD">
-                                <rect key="frame" x="23" y="265" width="274" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qYE-YK-U9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="731" y="-1250"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -96,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1127" y="-1250"/>
+            <point key="canvasLocation" x="520" y="-1268"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="I7c-ho-R3J">
@@ -164,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmu-Xy-DYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1127" y="-567"/>
+            <point key="canvasLocation" x="877" y="-1268"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zn7-o2-S3W">
@@ -201,7 +177,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="goH-FE-2FS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1536" y="-567"/>
+            <point key="canvasLocation" x="-196" y="-1268"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hpE-iK-PuS">
+            <objects>
+                <viewController id="lMO-D4-ojn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mvk-Uv-cmW"/>
+                        <viewControllerLayoutGuide type="bottom" id="RKG-Kg-ywe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jqq-Zo-A9c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="htz-n4-cYr">
+                                <rect key="frame" x="26" y="283" width="263" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T65-md-THy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="520" y="-609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="30S-XU-9I5">
@@ -219,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9v-cd-rin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1536" y="-1250"/>
+            <point key="canvasLocation" x="520" y="44"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6l8-VN-ksh">
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1J2-hq-ro2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1913" y="-1250"/>
+            <point key="canvasLocation" x="887" y="44"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rdn-QL-d8a">
@@ -325,7 +325,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l7U-0n-hes" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1127" y="-1955"/>
+            <point key="canvasLocation" x="151" y="-1268"/>
         </scene>
         <!--Main Menu View Controller-->
         <scene sceneID="1UD-c0-z64">
@@ -361,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p8a-NX-DtD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="354" y="-1250"/>
+            <point key="canvasLocation" x="520" y="-1924"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -370,6 +370,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="vml-W1-aFh"/>
+        <segue reference="sdk-vu-fZi"/>
     </inferredMetricsTieBreakers>
 </document>

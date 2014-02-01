@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
--(IBAction)playButtonEvent:(id)sender;
-
 @end
