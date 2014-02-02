@@ -1,18 +1,18 @@
 //
-//  CreditsViewController.m
+//  OptionsMenuViewController.m
 //  Assignment 1
 //
-//  Created by James Harper on 2014-02-01.
+//  Created by James Harper on 2014-01-29.
 //  Copyright (c) 2014 James Harper. All rights reserved.
 //
 
-#import "CreditsViewController.h"
+#import "OptionsMenuViewController.h"
 
-@interface CreditsViewController ()
+@interface OptionsMenuViewController ()
 
 @end
 
-@implementation CreditsViewController
+@implementation OptionsMenuViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -21,11 +21,6 @@
         // Custom initialization
     }
     return self;
-}
-
--(IBAction)BackButtonEvent:(id)sender
-{
-    [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
 - (void)viewDidLoad
@@ -38,6 +33,27 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(IBAction)MusicVolumeSliderEvent:(id)sender
+{
+    
+}
+
+-(IBAction)DifficultySelectorEvent:(id)sender
+{
+    
+}
+
+-(IBAction)SoundEffectsVolumeSliderEvent:(id)sender
+{
+    
+}
+
+-(IBAction)DisableSoundsAndMusicToggleEvent:(id)sender
+{
+    
 }
 
 @end

@@ -14,4 +14,7 @@
 -(IBAction)OptionsButtonEvent:(id)sender;
 -(IBAction)ControlsButtonEvent:(id)sender;
 -(IBAction)CreditsButtonEvent:(id)sender;
+
+-(IBAction)BackbuttonEvent:(id)sender;
+
 @end

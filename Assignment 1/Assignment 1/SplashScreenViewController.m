@@ -1,18 +1,18 @@
 //
-//  CreditsViewController.m
+//  SplashScreenViewController.m
 //  Assignment 1
 //
 //  Created by James Harper on 2014-02-01.
 //  Copyright (c) 2014 James Harper. All rights reserved.
 //
 
-#import "CreditsViewController.h"
+#import "SplashScreenViewController.h"
 
-@interface CreditsViewController ()
+@interface SplashScreenViewController ()
 
 @end
 
-@implementation CreditsViewController
+@implementation SplashScreenViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,9 +23,9 @@
     return self;
 }
 
--(IBAction)BackButtonEvent:(id)sender
+-(IBAction)ToMainMenuButtonEvent:(id)sender
 {
-    [self dismissViewControllerAnimated:YES completion:^{}];
+    
 }
 
 - (void)viewDidLoad

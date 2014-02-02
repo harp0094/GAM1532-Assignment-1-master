@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="270" y="-1134"/>
         </scene>
-        <!--View Controller-->
+        <!--Credits View Controller-->
         <scene sceneID="I7c-ho-R3J">
             <objects>
-                <viewController id="hfr-Jx-8p8" sceneMemberID="viewController">
+                <viewController id="hfr-Jx-8p8" customClass="CreditsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VtP-G0-GSs"/>
                         <viewControllerLayoutGuide type="bottom" id="uoK-8h-8BL"/>
@@ -142,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="627" y="-1134"/>
         </scene>
-        <!--View Controller-->
+        <!--Controls View Controller-->
         <scene sceneID="zn7-o2-S3W">
             <objects>
-                <viewController id="w70-NL-YyC" sceneMemberID="viewController">
+                <viewController id="w70-NL-YyC" customClass="ControlsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pte-dB-Ini"/>
                         <viewControllerLayoutGuide type="bottom" id="WHU-yg-rPi"/>
@@ -179,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="-446" y="-1134"/>
         </scene>
-        <!--View Controller-->
+        <!--Loading Screen View Controller-->
         <scene sceneID="hpE-iK-PuS">
             <objects>
-                <viewController id="lMO-D4-ojn" sceneMemberID="viewController">
+                <viewController id="lMO-D4-ojn" customClass="LoadingScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mvk-Uv-cmW"/>
                         <viewControllerLayoutGuide type="bottom" id="RKG-Kg-ywe"/>
@@ -203,10 +203,10 @@
             </objects>
             <point key="canvasLocation" x="270" y="-475"/>
         </scene>
-        <!--View Controller-->
+        <!--Game Screen View Controller-->
         <scene sceneID="30S-XU-9I5">
             <objects>
-                <viewController id="739-bD-SQ3" sceneMemberID="viewController">
+                <viewController id="739-bD-SQ3" customClass="GameScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1aq-bd-jp6"/>
                         <viewControllerLayoutGuide type="bottom" id="ykK-EC-Mye"/>
@@ -221,10 +221,10 @@
             </objects>
             <point key="canvasLocation" x="270" y="178"/>
         </scene>
-        <!--View Controller-->
+        <!--Paused Screen View Controller-->
         <scene sceneID="6l8-VN-ksh">
             <objects>
-                <viewController id="MPN-N6-bxy" sceneMemberID="viewController">
+                <viewController id="MPN-N6-bxy" customClass="PausedScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DP1-my-Lbb"/>
                         <viewControllerLayoutGuide type="bottom" id="orG-uI-YyJ"/>
@@ -274,10 +274,10 @@
             </objects>
             <point key="canvasLocation" x="637" y="178"/>
         </scene>
-        <!--View Controller-->
+        <!--Options Menu View Controller-->
         <scene sceneID="Rdn-QL-d8a">
             <objects>
-                <viewController id="zbs-lo-pCF" sceneMemberID="viewController">
+                <viewController id="zbs-lo-pCF" customClass="OptionsMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nGW-yM-J1B"/>
                         <viewControllerLayoutGuide type="bottom" id="aVq-uN-eFs"/>
@@ -370,6 +370,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Wli-EJ-L9K"/>
+        <segue reference="DA6-lk-Va5"/>
     </inferredMetricsTieBreakers>
 </document>

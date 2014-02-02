@@ -112,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1589" y="-1328"/>
         </scene>
-        <!--View Controller-->
+        <!--Loading Screen View Controller-->
         <scene sceneID="d86-KB-I9Z">
             <objects>
-                <viewController id="6jr-oF-Vgb" sceneMemberID="viewController">
+                <viewController id="6jr-oF-Vgb" customClass="LoadingScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7D8-ER-04w"/>
                         <viewControllerLayoutGuide type="bottom" id="uw0-1T-bJD"/>
@@ -136,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="1582" y="-189"/>
         </scene>
-        <!--View Controller-->
+        <!--Game Screen View Controller-->
         <scene sceneID="mGj-uJ-Eya">
             <objects>
-                <viewController id="BWk-um-4IV" sceneMemberID="viewController">
+                <viewController id="BWk-um-4IV" customClass="GameScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LFC-aA-LSb"/>
                         <viewControllerLayoutGuide type="bottom" id="39l-Mn-hd6"/>
@@ -157,10 +157,10 @@
             </objects>
             <point key="canvasLocation" x="1582" y="931"/>
         </scene>
-        <!--View Controller-->
+        <!--Paused Screen View Controller-->
         <scene sceneID="BYk-Pv-dWP">
             <objects>
-                <viewController id="qp5-tw-GHV" sceneMemberID="viewController">
+                <viewController id="qp5-tw-GHV" customClass="PausedScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zb1-gh-JAB"/>
                         <viewControllerLayoutGuide type="bottom" id="JjL-bL-mLO"/>
@@ -216,10 +216,10 @@
             </objects>
             <point key="canvasLocation" x="2393" y="931"/>
         </scene>
-        <!--View Controller-->
+        <!--Credits View Controller-->
         <scene sceneID="XQc-Ww-7Ri">
             <objects>
-                <viewController id="6Z7-uD-cvP" sceneMemberID="viewController">
+                <viewController id="6Z7-uD-cvP" customClass="CreditsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="usZ-gf-dsP"/>
                         <viewControllerLayoutGuide type="bottom" id="pGc-Cs-fma"/>
@@ -287,10 +287,10 @@
             </objects>
             <point key="canvasLocation" x="2400" y="-1325"/>
         </scene>
-        <!--View Controller-->
+        <!--Controls View Controller-->
         <scene sceneID="nJX-Xy-d0Z">
             <objects>
-                <viewController id="0PY-9D-vjr" sceneMemberID="viewController">
+                <viewController id="0PY-9D-vjr" customClass="ControlsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AcI-y4-Ipy"/>
                         <viewControllerLayoutGuide type="bottom" id="6bg-HA-tnf"/>
@@ -331,10 +331,10 @@
             </objects>
             <point key="canvasLocation" x="-74" y="-1325"/>
         </scene>
-        <!--Options View Controller-->
+        <!--Options Menu View Controller-->
         <scene sceneID="pqm-2g-JPe">
             <objects>
-                <viewController id="7SK-6N-PdW" customClass="OptionsViewController" sceneMemberID="viewController">
+                <viewController id="7SK-6N-PdW" customClass="OptionsMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dze-Ow-b1Y"/>
                         <viewControllerLayoutGuide type="bottom" id="SV6-fU-25p"/>
@@ -419,7 +419,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="y5Q-uc-gyh"/>
+        <segue reference="Rfd-OG-kaN"/>
         <segue reference="XDl-py-0cq"/>
     </inferredMetricsTieBreakers>
 </document>

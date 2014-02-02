@@ -14,15 +14,6 @@
 
 @implementation MainMenuViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 -(IBAction)PlayGameButtonEvent:(id)sender
 {
     
@@ -41,6 +32,11 @@
 -(IBAction)CreditsButtonEvent:(id)sender
 {
     
+}
+
+-(IBAction)BackbuttonEvent:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:^{}];
 }
 
 - (void)viewDidLoad

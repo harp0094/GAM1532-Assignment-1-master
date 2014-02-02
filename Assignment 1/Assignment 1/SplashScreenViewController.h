@@ -1,5 +1,5 @@
 //
-//  ControlsViewController.h
+//  SplashScreenViewController.h
 //  Assignment 1
 //
 //  Created by James Harper on 2014-02-01.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ControlsViewController : UIViewController
+@interface SplashScreenViewController : UIViewController
 
--(IBAction)BackButtonEvent:(id)sender;
+-(IBAction)ToMainMenuButtonEvent:(id)sender;
 
 @end
