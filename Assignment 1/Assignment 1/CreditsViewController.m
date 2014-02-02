@@ -14,6 +14,8 @@
 
 @implementation CreditsViewController
 
+@synthesize label = m_Label;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,6 +34,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    
+    NSDictionary* infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    
+    NSString* version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
+    
+    [m_Label setText:version];
 }
 
 - (void)didReceiveMemoryWarning

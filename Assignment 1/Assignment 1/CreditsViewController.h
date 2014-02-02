@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface CreditsViewController : UIViewController
+{
+    UILabel* m_Label;
+}
 
 -(IBAction)BackButtonEvent:(id)sender;
+
+@property(nonatomic) IBOutlet UILabel* label;
 
 @end
