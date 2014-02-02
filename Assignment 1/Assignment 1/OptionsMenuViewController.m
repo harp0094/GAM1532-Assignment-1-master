@@ -14,14 +14,7 @@
 
 @implementation OptionsMenuViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+
 
 - (void)viewDidLoad
 {
@@ -38,22 +31,38 @@
 
 -(IBAction)MusicVolumeSliderEvent:(id)sender
 {
-    
+    if([sender isKindOfClass:[UISlider class]] == YES)
+    {
+        UISlider* slider = sender;
+        NSLog(@"%f", slider.value);
+    }
 }
 
 -(IBAction)DifficultySelectorEvent:(id)sender
 {
-    
+    if([sender isKindOfClass:[UISlider class]] == YES)
+    {
+        UISlider* slider = sender;
+        NSLog(@"%f", slider.value);
+    }
 }
 
 -(IBAction)SoundEffectsVolumeSliderEvent:(id)sender
 {
-    
+    if([sender isKindOfClass:[UISlider class]] == YES)
+    {
+        UISlider* slider = sender;
+        NSLog(@"%f", slider.value);
+    }
 }
 
 -(IBAction)DisableSoundsAndMusicToggleEvent:(id)sender
 {
-    
+    if([sender isKindOfClass:[UISlider class]] == YES)
+    {
+        UISlider* slider = sender;
+        NSLog(@"%f", slider.value);
+    }
 }
 
 @end

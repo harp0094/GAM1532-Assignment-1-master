@@ -363,10 +363,16 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iuB-Sl-iE1">
                                 <rect key="frame" x="416" y="196" width="280" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="MusicVolumeSliderEvent:" destination="7SK-6N-PdW" eventType="valueChanged" id="XgZ-hD-l4h"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KQw-4o-Xog">
                                 <rect key="frame" x="416" y="327" width="280" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SoundEffectsVolumeSliderEvent:" destination="7SK-6N-PdW" eventType="valueChanged" id="3Eq-4g-cMH"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hN-36-uMk">
                                 <rect key="frame" x="166" y="189" width="72" height="34"/>
@@ -393,10 +399,16 @@
                                     <segment title="Easy"/>
                                     <segment title="INSANITY"/>
                                 </segments>
+                                <connections>
+                                    <action selector="DifficultySelectorEvent:" destination="7SK-6N-PdW" eventType="valueChanged" id="Lbe-9L-zN8"/>
+                                </connections>
                             </segmentedControl>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-Nw-4t3">
                                 <rect key="frame" x="532" y="619" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="DisableSoundsAndMusicToggleEvent:" destination="7SK-6N-PdW" eventType="valueChanged" id="Nrv-xr-4M6"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Silence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwV-4m-Amg">
                                 <rect key="frame" x="160" y="619" width="85" height="31"/>
@@ -419,7 +431,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Rfd-OG-kaN"/>
+        <segue reference="A0p-0D-cQ4"/>
         <segue reference="XDl-py-0cq"/>
     </inferredMetricsTieBreakers>
 </document>
