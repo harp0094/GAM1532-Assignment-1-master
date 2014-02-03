@@ -40,7 +40,9 @@
     
     NSString* version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
     
-    [m_Label setText:version];
+    NSString* formatted = [NSString stringWithFormat:@"Version: %@", version];
+    
+    [m_Label setText:formatted];
 }
 
 - (void)didReceiveMemoryWarning
