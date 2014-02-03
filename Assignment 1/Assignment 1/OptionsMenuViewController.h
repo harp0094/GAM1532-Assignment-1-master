@@ -15,4 +15,5 @@
 -(IBAction)SoundEffectsVolumeSliderEvent:(id)sender;
 -(IBAction)DisableSoundsAndMusicToggleEvent:(id)sender;
 
+-(IBAction)backButtonEvent:(id)sender;
 @end

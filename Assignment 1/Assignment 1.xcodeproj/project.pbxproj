@@ -23,11 +23,12 @@
 		267D29CB188EDE6900E33535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D29AA188EDE6900E33535 /* UIKit.framework */; };
 		267D29D3188EDE6900E33535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267D29D1188EDE6900E33535 /* InfoPlist.strings */; };
 		267D29D5188EDE6900E33535 /* Assignment_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D29D4188EDE6900E33535 /* Assignment_1Tests.m */; };
+		26BAA666189F1E720016AEB8 /* OptionSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BAA664189F1E720016AEB8 /* OptionSettings.cpp */; };
 		26D48CE3189DC8040077DD47 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CD6189DC8040077DD47 /* ControlsViewController.m */; };
 		26D48CE4189DC8040077DD47 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CD8189DC8040077DD47 /* CreditsViewController.m */; };
 		26D48CE6189DC8040077DD47 /* GameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CDC189DC8040077DD47 /* GameScreenViewController.m */; };
 		26D48CE7189DC8040077DD47 /* LoadingScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CDE189DC8040077DD47 /* LoadingScreenViewController.m */; };
-		26D48CE8189DC8040077DD47 /* OptionsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CE0189DC8040077DD47 /* OptionsMenuViewController.m */; };
+		26D48CE8189DC8040077DD47 /* OptionsMenuViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CE0189DC8040077DD47 /* OptionsMenuViewController.mm */; };
 		26D48CE9189DC8040077DD47 /* PausedScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CE2189DC8040077DD47 /* PausedScreenViewController.m */; };
 		26D48CEC189DC9390077DD47 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CEB189DC9390077DD47 /* SplashScreenViewController.m */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,8 @@
 		267D29D0188EDE6900E33535 /* Assignment 1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment 1Tests-Info.plist"; sourceTree = "<group>"; };
 		267D29D2188EDE6900E33535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		267D29D4188EDE6900E33535 /* Assignment_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_1Tests.m; sourceTree = "<group>"; };
+		26BAA664189F1E720016AEB8 /* OptionSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionSettings.cpp; sourceTree = "<group>"; };
+		26BAA665189F1E720016AEB8 /* OptionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionSettings.h; sourceTree = "<group>"; };
 		26D48CD5189DC8040077DD47 /* ControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsViewController.h; sourceTree = "<group>"; };
 		26D48CD6189DC8040077DD47 /* ControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsViewController.m; sourceTree = "<group>"; };
 		26D48CD7189DC8040077DD47 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
@@ -74,7 +77,7 @@
 		26D48CDD189DC8040077DD47 /* LoadingScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingScreenViewController.h; sourceTree = "<group>"; };
 		26D48CDE189DC8040077DD47 /* LoadingScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingScreenViewController.m; sourceTree = "<group>"; };
 		26D48CDF189DC8040077DD47 /* OptionsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsMenuViewController.h; sourceTree = "<group>"; };
-		26D48CE0189DC8040077DD47 /* OptionsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMenuViewController.m; sourceTree = "<group>"; };
+		26D48CE0189DC8040077DD47 /* OptionsMenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OptionsMenuViewController.mm; sourceTree = "<group>"; };
 		26D48CE1189DC8040077DD47 /* PausedScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PausedScreenViewController.h; sourceTree = "<group>"; };
 		26D48CE2189DC8040077DD47 /* PausedScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PausedScreenViewController.m; sourceTree = "<group>"; };
 		26D48CEA189DC9390077DD47 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
@@ -138,6 +141,7 @@
 		267D29AC188EDE6900E33535 /* Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
+				26BAA663189F1E470016AEB8 /* C++ */,
 				267D29B5188EDE6900E33535 /* AppDelegate.h */,
 				267D29B6188EDE6900E33535 /* AppDelegate.m */,
 				267D29B8188EDE6900E33535 /* Main_iPhone.storyboard */,
@@ -159,7 +163,7 @@
 				26D48CDD189DC8040077DD47 /* LoadingScreenViewController.h */,
 				26D48CDE189DC8040077DD47 /* LoadingScreenViewController.m */,
 				26D48CDF189DC8040077DD47 /* OptionsMenuViewController.h */,
-				26D48CE0189DC8040077DD47 /* OptionsMenuViewController.m */,
+				26D48CE0189DC8040077DD47 /* OptionsMenuViewController.mm */,
 				26D48CE1189DC8040077DD47 /* PausedScreenViewController.h */,
 				26D48CE2189DC8040077DD47 /* PausedScreenViewController.m */,
 			);
@@ -193,6 +197,15 @@
 				267D29D1188EDE6900E33535 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26BAA663189F1E470016AEB8 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				26BAA664189F1E720016AEB8 /* OptionSettings.cpp */,
+				26BAA665189F1E720016AEB8 /* OptionSettings.h */,
+			);
+			name = "C++";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26781CA7189DBC4F00168E0F /* MainMenuViewController.m in Sources */,
+				26BAA666189F1E720016AEB8 /* OptionSettings.cpp in Sources */,
 				267D29C0188EDE6900E33535 /* ViewController.m in Sources */,
 				267D29B7188EDE6900E33535 /* AppDelegate.m in Sources */,
 				26D48CE7189DC8040077DD47 /* LoadingScreenViewController.m in Sources */,
@@ -302,7 +316,7 @@
 				26D48CE4189DC8040077DD47 /* CreditsViewController.m in Sources */,
 				26D48CE3189DC8040077DD47 /* ControlsViewController.m in Sources */,
 				26D48CE6189DC8040077DD47 /* GameScreenViewController.m in Sources */,
-				26D48CE8189DC8040077DD47 /* OptionsMenuViewController.m in Sources */,
+				26D48CE8189DC8040077DD47 /* OptionsMenuViewController.mm in Sources */,
 				267D29B3188EDE6900E33535 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

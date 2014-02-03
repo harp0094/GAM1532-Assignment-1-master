@@ -63,8 +63,12 @@
     if([sender isKindOfClass:[UISwitch class]] == YES)
     {
         UISwitch* uiswitch = sender;
-        OptionSettings::getInstance()->getSilenceNoise(uiswitch.isOn);
+        OptionSettings::getInstance()->setSilenceNoise(uiswitch.isOn);
     }
 }
 
+-(IBAction)backButtonEvent:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:^{}];
+}
 @end
