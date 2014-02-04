@@ -139,7 +139,7 @@
         <!--Game Screen View Controller-->
         <scene sceneID="mGj-uJ-Eya">
             <objects>
-                <viewController id="BWk-um-4IV" customClass="GameScreenViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadGame" id="BWk-um-4IV" customClass="GameScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LFC-aA-LSb"/>
                         <viewControllerLayoutGuide type="bottom" id="39l-Mn-hd6"/>

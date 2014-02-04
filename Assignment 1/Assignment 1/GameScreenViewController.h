@@ -10,4 +10,6 @@
 
 @interface GameScreenViewController : UIViewController
 
+-(IBAction)backButtonevent:(id)sender;
+
 @end

@@ -10,4 +10,7 @@
 
 @interface LoadingScreenViewController : UIViewController
 
+-(IBAction)setupTimer:(id)sender;
+-(IBAction)switchViewControllers:(id)sender;
+
 @end

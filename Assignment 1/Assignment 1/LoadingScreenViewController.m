@@ -40,4 +40,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) setupTimer:(id)sender
+{
+    [NSTimer scheduledTimerWithTimeInterval:3.0
+                                     target:self
+                                   selector:@selector(switchViewControllers:)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+-(void) switchViewControllers:(id)sender
+{
+    [self performSegueWithIdentifier:@"LoadGame" sender:self ];
+}
 @end
