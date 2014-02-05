@@ -23,6 +23,10 @@
 		267D29CB188EDE6900E33535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267D29AA188EDE6900E33535 /* UIKit.framework */; };
 		267D29D3188EDE6900E33535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267D29D1188EDE6900E33535 /* InfoPlist.strings */; };
 		267D29D5188EDE6900E33535 /* Assignment_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267D29D4188EDE6900E33535 /* Assignment_1Tests.m */; };
+		269C1EDA18A1E41400758A44 /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 269C1ED918A1E41400758A44 /* Icon-iPad@2x.png */; };
+		269C1EE418A1F50000758A44 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269C1EE318A1F50000758A44 /* AVFoundation.framework */; };
+		269C1EE618A1F5CE00758A44 /* MenuMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269C1EE518A1F5CE00758A44 /* MenuMusic.mp3 */; };
+		269C1EE818A1F9F100758A44 /* MenuMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 269C1EE718A1F9F100758A44 /* MenuMusic.mp3 */; };
 		26BAA666189F1E720016AEB8 /* OptionSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BAA664189F1E720016AEB8 /* OptionSettings.cpp */; };
 		26D48CE3189DC8040077DD47 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CD6189DC8040077DD47 /* ControlsViewController.m */; };
 		26D48CE4189DC8040077DD47 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D48CD8189DC8040077DD47 /* CreditsViewController.m */; };
@@ -66,6 +70,10 @@
 		267D29D0188EDE6900E33535 /* Assignment 1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment 1Tests-Info.plist"; sourceTree = "<group>"; };
 		267D29D2188EDE6900E33535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		267D29D4188EDE6900E33535 /* Assignment_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_1Tests.m; sourceTree = "<group>"; };
+		269C1ED918A1E41400758A44 /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iPad@2x.png"; path = "../../../App Icons/Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		269C1EE318A1F50000758A44 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		269C1EE518A1F5CE00758A44 /* MenuMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MenuMusic.mp3; path = "Assignment 1Tests/MenuMusic.mp3"; sourceTree = SOURCE_ROOT; };
+		269C1EE718A1F9F100758A44 /* MenuMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MenuMusic.mp3; sourceTree = "<group>"; };
 		26BAA664189F1E720016AEB8 /* OptionSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionSettings.cpp; sourceTree = "<group>"; };
 		26BAA665189F1E720016AEB8 /* OptionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionSettings.h; sourceTree = "<group>"; };
 		26D48CD5189DC8040077DD47 /* ControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsViewController.h; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269C1EE418A1F50000758A44 /* AVFoundation.framework in Frameworks */,
 				267D29A9188EDE6900E33535 /* CoreGraphics.framework in Frameworks */,
 				267D29AB188EDE6900E33535 /* UIKit.framework in Frameworks */,
 				267D29A7188EDE6900E33535 /* Foundation.framework in Frameworks */,
@@ -130,6 +139,7 @@
 		267D29A5188EDE6900E33535 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				269C1EE318A1F50000758A44 /* AVFoundation.framework */,
 				267D29A6188EDE6900E33535 /* Foundation.framework */,
 				267D29A8188EDE6900E33535 /* CoreGraphics.framework */,
 				267D29AA188EDE6900E33535 /* UIKit.framework */,
@@ -141,6 +151,7 @@
 		267D29AC188EDE6900E33535 /* Assignment 1 */ = {
 			isa = PBXGroup;
 			children = (
+				269C1EE218A1F3D400758A44 /* Music */,
 				26BAA663189F1E470016AEB8 /* C++ */,
 				267D29B5188EDE6900E33535 /* AppDelegate.h */,
 				267D29B6188EDE6900E33535 /* AppDelegate.m */,
@@ -173,6 +184,9 @@
 		267D29AD188EDE6900E33535 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				269C1EE718A1F9F100758A44 /* MenuMusic.mp3 */,
+				269C1EE518A1F5CE00758A44 /* MenuMusic.mp3 */,
+				269C1ED918A1E41400758A44 /* Icon-iPad@2x.png */,
 				267D29AE188EDE6900E33535 /* Assignment 1-Info.plist */,
 				267D29AF188EDE6900E33535 /* InfoPlist.strings */,
 				267D29B2188EDE6900E33535 /* main.m */,
@@ -197,6 +211,13 @@
 				267D29D1188EDE6900E33535 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		269C1EE218A1F3D400758A44 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 		26BAA663189F1E470016AEB8 /* C++ */ = {
@@ -284,10 +305,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269C1EDA18A1E41400758A44 /* Icon-iPad@2x.png in Resources */,
 				267D29BD188EDE6900E33535 /* Main_iPad.storyboard in Resources */,
 				267D29C2188EDE6900E33535 /* Images.xcassets in Resources */,
 				267D29BA188EDE6900E33535 /* Main_iPhone.storyboard in Resources */,
 				267D29B1188EDE6900E33535 /* InfoPlist.strings in Resources */,
+				269C1EE818A1F9F100758A44 /* MenuMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				267D29D3188EDE6900E33535 /* InfoPlist.strings in Resources */,
+				269C1EE618A1F5CE00758A44 /* MenuMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
