@@ -40,24 +40,11 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) setupTimer:(id)sender
+-(void) viewDidAppear:(BOOL)animated
 {
-    m_Timer = [NSTimer scheduledTimerWithTimeInterval:1.0
-                                               target:self
-                                             selector:@selector(switchViewControllers:)
-                                             userInfo:nil
-                                              repeats:NO];
-    count = 3;
+    sleep(1);
+    [self performSegueWithIdentifier:@"LoadGame" sender:self ];
 }
 
--(void) switchViewControllers:(id)sender
-{
-    count -= 1;
-    if(count == 0)
-    {
-        [m_Timer invalidate];
-    [self performSegueWithIdentifier:@"LoadGame" sender:self ];
-    }
-}
 
 @end
