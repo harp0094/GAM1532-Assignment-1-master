@@ -42,15 +42,22 @@
 
 -(void) setupTimer:(id)sender
 {
-    [NSTimer scheduledTimerWithTimeInterval:3.0
-                                     target:self
-                                   selector:@selector(switchViewControllers:)
-                                   userInfo:nil
-                                    repeats:NO];
+    m_Timer = [NSTimer scheduledTimerWithTimeInterval:1.0
+                                               target:self
+                                             selector:@selector(switchViewControllers:)
+                                             userInfo:nil
+                                              repeats:NO];
+    count = 3;
 }
 
 -(void) switchViewControllers:(id)sender
 {
+    count -= 1;
+    if(count == 0)
+    {
+        [m_Timer invalidate];
     [self performSegueWithIdentifier:@"LoadGame" sender:self ];
+    }
 }
+
 @end

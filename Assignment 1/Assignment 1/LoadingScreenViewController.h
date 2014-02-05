@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface LoadingScreenViewController : UIViewController
+{
+    int count;
+    NSTimer* m_Timer;
+}
 
 -(IBAction)setupTimer:(id)sender;
 -(IBAction)switchViewControllers:(id)sender;
